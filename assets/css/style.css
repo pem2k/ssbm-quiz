@@ -42,7 +42,12 @@ h1 {
 h2{
     width: 80%;
     margin: 0 auto 0 auto;
-    padding: 2%
+    padding: 3%;
+    border: 0px solid #ffff;
+    border-radius: 5px;
+    text-wrap: wrap;
+    background-color: var(--accent);
+    color: var(--main-bg-color)
 }
 
 ul{
@@ -128,6 +133,10 @@ td, th{
 
     h1, h2{
         font-size: 2.2em;
+    }
+
+    h3{
+        font-size: 1.5em;
     }
 
     p{
