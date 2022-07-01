@@ -1,7 +1,7 @@
 <!DOCTYPE html>
     <html>
         <head> 
-            <meta>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" href="./assets/css/reset.css">
             <link rel="stylesheet" href ="./assets/css/style.css">
             <title>SSBM Quiz</title>
@@ -12,8 +12,8 @@
             <header>
                 <nav>
                     <ul>
-                        <li class="select" data-state="begin">Begin Quiz</li> <!--swap this out to "reset quiz" with js-->
-                        <li class="select">High Scores</li>
+                        <li class="select" data-state="Begin">Begin Quiz</li> <!--swap this out to "reset quiz" with js-->
+                       <li class="select"><a href="#highScores">High Scores</a></li>
                     </ul>
                 </nav>
             </header>
@@ -21,23 +21,23 @@
             <main>
                     <h1>How well do you know Melee?</h1>
 
-                    <h2>Click "Begin Quiz" to start!</h2>
+                    <h2>Click "Begin Quiz" in the navbar to start!</h2>
                     <br>
                     <h3></h3>
                     
                 <div id="flex">
                     <p class ="select" id ="upper-left">?</p>
                     <p class ="select" id="upper-right">?</p>
-                    <p class ="select" id="bottom-left">?</p>
+                       <p class ="select" id="bottom-left">?</p>
                     <p class ="select" id="bottom-right">?</p>
                 </div>
             </main>
 
             <aside>
-                <table>
+                <table id="highScores">
                     <tr>
                         <th>Name</th>
-                        <th>Time</th>
+                        <th>Time left</th>
                         <th>Score</th> 
                     </tr>
             
@@ -48,7 +48,7 @@
 
             </footer>
 
-
         <script src="./assets/js/script.js"></script>
+        
         </body>
     </html>

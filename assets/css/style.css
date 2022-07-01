@@ -9,6 +9,7 @@
 html{
     width: 100vw;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -45,7 +46,6 @@ h2{
     padding: 3%;
     border: 0px solid #ffff;
     border-radius: 5px;
-    text-wrap: wrap;
     background-color: var(--accent);
     color: var(--main-bg-color)
 }
@@ -81,7 +81,6 @@ p{
     padding: 1%;
     border: 0px solid #ffff;
     border-radius: 5px;
-    text-wrap: wrap;
     background-color: var(--accent);
     color: var(--main-bg-color)
 }
